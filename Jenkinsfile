@@ -14,7 +14,8 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/Vishvasdr1912/sample-ecs-app.git'
+                git 'https://github.com/Vishvasdr1912/sample-ecs-app'
+		     
             }
         }
 
